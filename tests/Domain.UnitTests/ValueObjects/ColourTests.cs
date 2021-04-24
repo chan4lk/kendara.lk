@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Exceptions;
-using CleanArchitecture.Domain.ValueObjects;
+﻿using KendaraLK.Domain.Exceptions;
+using KendaraLK.Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Domain.UnitTests.ValueObjects
+namespace KendaraLK.Domain.UnitTests.ValueObjects
 {
     public class ColourTests
     {

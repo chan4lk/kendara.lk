@@ -1,15 +1,15 @@
-﻿using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
-using CleanArchitecture.Application.TodoItems.Commands.DeleteTodoItem;
-using CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItem;
-using CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItemDetail;
-using CleanArchitecture.Application.TodoItems.Queries.GetTodoItemsWithPagination;
-using CleanArchitecture.Application.TodoLists.Queries.GetTodos;
+﻿using KendaraLK.Application.Common.Models;
+using KendaraLK.Application.TodoItems.Commands.CreateTodoItem;
+using KendaraLK.Application.TodoItems.Commands.DeleteTodoItem;
+using KendaraLK.Application.TodoItems.Commands.UpdateTodoItem;
+using KendaraLK.Application.TodoItems.Commands.UpdateTodoItemDetail;
+using KendaraLK.Application.TodoItems.Queries.GetTodoItemsWithPagination;
+using KendaraLK.Application.TodoLists.Queries.GetTodos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.WebUI.Controllers
+namespace KendaraLK.WebUI.Controllers
 {
     [Authorize]
     public class TodoItemsController : ApiControllerBase

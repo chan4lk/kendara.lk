@@ -3,7 +3,7 @@
   "defaultVariables": null,
   "documentGenerator": {
     "aspNetCoreToOpenApi": {
-      "project": "WebUI.csproj",
+      "project": "KendaraLK.WebUI.csproj",
       "msBuildProjectExtensionsPath": null,
       "configuration": null,
       "runtime": null,
@@ -30,7 +30,7 @@
       "serviceHost": null,
       "serviceBasePath": null,
       "serviceSchemes": [],
-      "infoTitle": "CleanArchitecture API",
+      "infoTitle": "KendaraLK API",
       "infoDescription": null,
       "infoVersion": "1.0.0",
       "documentTemplate": null,

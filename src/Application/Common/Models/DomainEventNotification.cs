@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using KendaraLK.Domain.Common;
 using MediatR;
 
-namespace CleanArchitecture.Application.Common.Models
+namespace KendaraLK.Application.Common.Models
 {
     public class DomainEventNotification<TDomainEvent> : INotification where TDomainEvent : DomainEvent
     {

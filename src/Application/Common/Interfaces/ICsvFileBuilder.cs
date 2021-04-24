@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
+﻿using KendaraLK.Application.TodoLists.Queries.ExportTodos;
 using System.Collections.Generic;
 
-namespace CleanArchitecture.Application.Common.Interfaces
+namespace KendaraLK.Application.Common.Interfaces
 {
     public interface ICsvFileBuilder
     {

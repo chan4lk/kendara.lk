@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using KendaraLK.Domain.Common;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common.Interfaces
+namespace KendaraLK.Application.Common.Interfaces
 {
     public interface IDomainEventService
     {

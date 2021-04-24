@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Common;
-using CleanArchitecture.Domain.Exceptions;
+﻿using KendaraLK.Domain.Common;
+using KendaraLK.Domain.Exceptions;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CleanArchitecture.Domain.ValueObjects
+namespace KendaraLK.Domain.ValueObjects
 {
     public class Colour : ValueObject
     {

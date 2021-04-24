@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using KendaraLK.Application.Common.Interfaces;
 using System;
 
-namespace CleanArchitecture.Infrastructure.Services
+namespace KendaraLK.Infrastructure.Services
 {
     public class DateTimeService : IDateTime
     {

@@ -11,19 +11,19 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt install -y nodejs
 WORKDIR /src
-COPY ["src/WebUI/WebUI.csproj", "src/WebUI/"]
-COPY ["src/Application/Application.csproj", "src/Application/"]
-COPY ["src/Domain/Domain.csproj", "src/Domain/"]
-COPY ["src/Infrastructure/Infrastructure.csproj", "src/Infrastructure/"]
-RUN dotnet restore "src/WebUI/WebUI.csproj"
+COPY ["src/WebUI/KendaraLK.WebUI.csproj", "src/WebUI/"]
+COPY ["src/Application/KendaraLK.Application.csproj", "src/Application/"]
+COPY ["src/Domain/KendaraLK.Domain.csproj", "src/Domain/"]
+COPY ["src/Infrastructure/KendaraLK.Infrastructure.csproj", "src/Infrastructure/"]
+RUN dotnet restore "src/WebUI/KendaraLK.WebUI.csproj"
 COPY . .
 WORKDIR "/src/src/WebUI"
-RUN dotnet build "WebUI.csproj" -c Release -o /app/build
+RUN dotnet build "KendaraLK.WebUI.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "WebUI.csproj" -c Release -o /app/publish
+RUN dotnet publish "KendaraLK.WebUI.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "CleanArchitecture.WebUI.dll"]
+ENTRYPOINT ["dotnet", "KendaraLK.WebUI.dll"]

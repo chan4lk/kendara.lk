@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
-using CleanArchitecture.Domain.Entities;
+﻿using KendaraLK.Domain.Common;
+using KendaraLK.Domain.Entities;
 
-namespace CleanArchitecture.Domain.Events
+namespace KendaraLK.Domain.Events
 {
     public class TodoItemCreatedEvent : DomainEvent
     {

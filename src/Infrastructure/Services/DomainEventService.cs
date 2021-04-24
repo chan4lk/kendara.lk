@@ -1,12 +1,12 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Common;
+﻿using KendaraLK.Application.Common.Interfaces;
+using KendaraLK.Application.Common.Models;
+using KendaraLK.Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Services
+namespace KendaraLK.Infrastructure.Services
 {
     public class DomainEventService : IDomainEventService
     {

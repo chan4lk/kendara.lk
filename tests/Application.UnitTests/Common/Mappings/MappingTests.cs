@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using CleanArchitecture.Application.Common.Mappings;
-using CleanArchitecture.Application.TodoLists.Queries.GetTodos;
-using CleanArchitecture.Domain.Entities;
+using KendaraLK.Application.Common.Mappings;
+using KendaraLK.Application.TodoLists.Queries.GetTodos;
+using KendaraLK.Domain.Entities;
 using NUnit.Framework;
 using System;
 using System.Runtime.Serialization;
 
-namespace CleanArchitecture.Application.UnitTests.Common.Mappings
+namespace KendaraLK.Application.UnitTests.Common.Mappings
 {
     public class MappingTests
     {

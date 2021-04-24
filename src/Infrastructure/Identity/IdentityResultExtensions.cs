@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using KendaraLK.Application.Common.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace KendaraLK.Infrastructure.Identity
 {
     public static class IdentityResultExtensions
     {

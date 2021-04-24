@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>CleanArchitecture.Domain.UnitTests</RootNamespace>
-    <AssemblyName>CleanArchitecture.Domain.UnitTests</AssemblyName>
+    <RootNamespace>KendaraLK.Application.UnitTests</RootNamespace>
+    <AssemblyName>KendaraLK.Application.UnitTests</AssemblyName>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -16,10 +16,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Moq" Version="4.15.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\src\Application\KendaraLK.Application.csproj" />
+    <ProjectReference Include="..\..\src\Infrastructure\KendaraLK.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

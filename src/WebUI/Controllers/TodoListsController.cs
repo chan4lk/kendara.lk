@@ -1,13 +1,13 @@
-﻿using CleanArchitecture.Application.TodoLists.Commands.CreateTodoList;
-using CleanArchitecture.Application.TodoLists.Commands.DeleteTodoList;
-using CleanArchitecture.Application.TodoLists.Commands.UpdateTodoList;
-using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
-using CleanArchitecture.Application.TodoLists.Queries.GetTodos;
+﻿using KendaraLK.Application.TodoLists.Commands.CreateTodoList;
+using KendaraLK.Application.TodoLists.Commands.DeleteTodoList;
+using KendaraLK.Application.TodoLists.Commands.UpdateTodoList;
+using KendaraLK.Application.TodoLists.Queries.ExportTodos;
+using KendaraLK.Application.TodoLists.Queries.GetTodos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.WebUI.Controllers
+namespace KendaraLK.WebUI.Controllers
 {
     [Authorize]
     public class TodoListsController : ApiControllerBase

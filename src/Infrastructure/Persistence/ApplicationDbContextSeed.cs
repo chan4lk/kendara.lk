@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.ValueObjects;
-using CleanArchitecture.Infrastructure.Identity;
+﻿using KendaraLK.Domain.Entities;
+using KendaraLK.Domain.ValueObjects;
+using KendaraLK.Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Persistence
+namespace KendaraLK.Infrastructure.Persistence
 {
     public static class ApplicationDbContextSeed
     {

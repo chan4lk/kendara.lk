@@ -1,12 +1,12 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
-using CleanArchitecture.Infrastructure.Files.Maps;
+﻿using KendaraLK.Application.Common.Interfaces;
+using KendaraLK.Application.TodoLists.Queries.ExportTodos;
+using KendaraLK.Infrastructure.Files.Maps;
 using CsvHelper;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 
-namespace CleanArchitecture.Infrastructure.Files
+namespace KendaraLK.Infrastructure.Files
 {
     public class CsvFileBuilder : ICsvFileBuilder
     {

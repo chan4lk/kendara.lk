@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Common.Interfaces
+﻿namespace KendaraLK.Application.Common.Interfaces
 {
     public interface ICurrentUserService
     {
