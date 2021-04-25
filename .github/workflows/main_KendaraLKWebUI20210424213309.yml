@@ -23,12 +23,12 @@ jobs:
 
     - name: Install dotnet ef
       run: dotnet tool install --global dotnet-ef
-      
+
     - name: Build with dotnet
       run: dotnet build --configuration Release KendaraLK.sln
 
     - name: dotnet publish
-      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      run: dotnet publish -c Release KendaraLK.sln -o ${{env.DOTNET_ROOT}}/myapp
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
