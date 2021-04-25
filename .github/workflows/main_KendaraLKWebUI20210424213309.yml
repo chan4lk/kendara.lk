@@ -21,8 +21,11 @@ jobs:
       with:
         dotnet-version: '5.0.x'
 
+    - name: Install dotnet ef
+      run: dotnet tool install --global dotnet-ef
+      
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build --configuration Release KendaraLK.sln
 
     - name: dotnet publish
       run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
